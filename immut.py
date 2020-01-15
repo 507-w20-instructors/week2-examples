@@ -71,6 +71,14 @@ print(a) # prints "[4, 5, 6]"
 print(b) # prints "[1, 2, 3, 4, 5]"
 
 
+def change_it(the_list):
+    the_list.append('d')
+
+g_list = ['a', 'b', 'c']
+change_it(the_list)
+print(g_list)
+
+
 def dict_update(local_dict):
     local_dict['g'] = 'grapefruit'
     local_dict['n'] = 'nectarine'
