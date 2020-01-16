@@ -1,4 +1,3 @@
-# lec2_1.py
 
 students = {
     '1001': {'last_name': 'Newman', 'first_name': 'Mark', 'uniqname': 'mwnewman'},
