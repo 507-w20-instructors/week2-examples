@@ -45,7 +45,7 @@ def calculate_student_averages(students, grades):
     '''
 
     for id in grades:
-        students_copy[id]["average"] = compute_average(grades[id])
+        students[id]["average"] = compute_average(grades[id])
 
 
 def find_student_with_highest_average(students, grades):
@@ -94,7 +94,7 @@ def print_final_grades(students, final_grades):
         student = students[id]
         print(student['first_name'], student['last_name'], 'has', final_grades[id])
 
-students = calculate_student_averages(students, grades)
+calculate_student_averages(students, grades)
 top_student = find_student_with_highest_average(students, grades)
 print("The top student is", top_student['first_name'], top_student['last_name'])
 
