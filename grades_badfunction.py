@@ -15,7 +15,7 @@ grades = {
 }
 
 
-def compute_final_grades(grades):
+def grades(grades):
     for id in grades:
         sum = 0
         num_items = 0
