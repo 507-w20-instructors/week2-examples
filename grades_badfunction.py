@@ -15,7 +15,7 @@ grades = {
 }
 
 
-def grades(grades):
+def do_grades(grades):
     for id in grades:
         sum = 0
         num_items = 0
@@ -35,4 +35,4 @@ def grades(grades):
         student = students[id]
         print(student['first_name'], student['last_name'], 'has', student_grades[id])
 
-grades(grades)
+do_grades(grades)
