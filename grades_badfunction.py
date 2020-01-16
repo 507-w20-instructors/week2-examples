@@ -35,4 +35,4 @@ def grades(grades):
         student = students[id]
         print(student['first_name'], student['last_name'], 'has', student_grades[id])
 
-compute_final_grades(grades)
+grades(grades)
